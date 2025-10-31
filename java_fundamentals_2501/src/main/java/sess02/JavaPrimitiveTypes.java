@@ -5,15 +5,16 @@ package sess02;
  * @author vkoech
  */
 public class JavaPrimitiveTypes {
+
     public static void main(String[] args) {
         // Declare one variable for each of the primitive types
-        byte byteVar = 0;     
-        short shortVar = 0;     
-        int intVar = 0;         
-        float floatVar = 0.0f;  
+        byte byteVar = 0;
+        short shortVar = 0;
+        int intVar = 0;
+        float floatVar = 0.0f;
         double doubleVar = 0.0;
-        char charVar = '\u0000'; 
-        boolean boolVar = false; 
+        char charVar = '\u0000';
+        boolean boolVar = false;
 
         System.out.println("=================================================");
         System.out.println("     JAVA PRIMITIVE DATA TYPES DEMONSTRATION");
@@ -49,5 +50,27 @@ public class JavaPrimitiveTypes {
         System.out.printf("%-10s %-12d\n", "char", Character.BYTES);
         System.out.printf("%-10s %-12s\n", "boolean", "JVM dependent (~1 byte)");
         System.out.println("-----------------------------------------------");
+
+        // 3. Display the minimum and maximum values for the numeric types
+        System.out.println("\n3. MINIMUM & MAXIMUM VALUES FOR EACH PRIMITIVE TYPE");
+        System.out.println("---------------------------------------------------------------");
+        System.out.printf("%-10s %-25s %-25s\n", "Type", "Minimum Value", "Maximum Value");
+        System.out.println("---------------------------------------------------------------");
+
+        System.out.printf("%-10s %-25d %-25d\n", "byte", Byte.MIN_VALUE, Byte.MAX_VALUE);
+        System.out.printf("%-10s %-25d %-25d\n", "short", Short.MIN_VALUE, Short.MAX_VALUE);
+        System.out.printf("%-10s %-25d %-25d\n", "int", Integer.MIN_VALUE, Integer.MAX_VALUE);
+        System.out.printf("%-10s %-25d %-25d\n", "long", Long.MIN_VALUE, Long.MAX_VALUE);
+
+        System.out.printf("%-10s %-25.8e %-25.8e\n", "float", Float.MIN_VALUE, Float.MAX_VALUE);
+        System.out.printf("%-10s %-25s %-25s\n", "", "(Smallest positive normal: " + Float.MIN_NORMAL + ")", "");
+        System.out.printf("%-10s %-25.8e %-25.8e\n", "double", Double.MIN_VALUE, Double.MAX_VALUE);
+        System.out.printf("%-10s %-25s %-25s\n", "", "(Smallest positive normal: " + Double.MIN_NORMAL + ")", "");
+
+        System.out.printf("%-10s U+%04X %-15s U+%04X\n", "char", (int) Character.MIN_VALUE, "", (int) Character.MAX_VALUE);
+        System.out.printf("%-10s %-25s %-25s\n", "boolean", "false", "true");
+
+        System.out.println("---------------------------------------------------------------");
+
     }
 }
