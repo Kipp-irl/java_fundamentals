@@ -40,8 +40,6 @@ public class CircleConst {
         System.out.printf("%-15s : %7.1f cm2.\n", "area", area);
         System.out.printf("%-15s : %7.1f cm.\n", "circumference", circumference);
         System.out.println("-" .repeat(50));
-        
-        
     }
     
     

@@ -1,4 +1,4 @@
-package sess4;
+package sess04;
 
 /**
  * Java program to demonstrate creating Student objects and invoking their methods

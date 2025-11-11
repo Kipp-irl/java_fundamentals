@@ -1,4 +1,4 @@
-package sess3;
+package sess03;
 
 /**
  * Java program to search for some text in a paragraph using a while loop
@@ -39,4 +39,5 @@ public class TextSearch {
             System.out.println("Text '" + textToSearch + "' not found in the paragraph.");
         }
     }
+    
 }
