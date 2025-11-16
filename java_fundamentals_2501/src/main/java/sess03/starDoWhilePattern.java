@@ -5,7 +5,7 @@ package sess03;
  *
  * @author vkoech
  */
-public class StarPatternDoWhile {
+public class starDoWhilePattern {
 
     // main method begins program execution
     public static void main(String[] args) {

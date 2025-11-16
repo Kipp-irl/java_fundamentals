@@ -4,6 +4,8 @@
  */
 package sess02;
 
+import java.util.Scanner;
+
 /**
  * Java program to demonstrate the concept of constants and class variables.
  * @author vkoech
@@ -26,7 +28,7 @@ public class CircleConst {
         //Read in the Radius from the user
         System.out.println("Please enter the radius of the circle in cm and " + 
                 "I'll tell oyu its area and circumeference");
-        radius = sc.nextFloat;
+        radius = sc.nextFloat();
         sc.close();//Close the input stream
         
         //Calculate the area and circumference

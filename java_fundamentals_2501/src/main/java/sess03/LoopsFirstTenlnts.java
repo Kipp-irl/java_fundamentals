@@ -4,7 +4,7 @@ package sess03;
  *
  * @author vkoech
  */
-public class LoopsFirstTenInts {
+public class LoopsFirstTenlnts {
 
     public static void main(String args[]) {
         // Variable to be used in the program
