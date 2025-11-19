@@ -13,7 +13,7 @@ package sess04;
  * 
  * @author vkoech
  */
-public class Person
+public class person
 {
     // ============================================================
     // Instance Fields
@@ -46,7 +46,7 @@ public class Person
      * Default no-argument constructor that <em>initialises</em> a
      * {@code Person} object with default values.
      */
-    public Person()
+    public person()
     {
     }
 
@@ -58,7 +58,7 @@ public class Person
      * @param gender The person's gender: 'M'/'m' for Male or 'F'/'f' for Female.
      * @param age    The person's age in years (0–127).
      */
-    public Person(String name, char gender, byte age)
+    public person(String name, char gender, byte age)
     {
         this.name = name;
         this.gender = gender;
